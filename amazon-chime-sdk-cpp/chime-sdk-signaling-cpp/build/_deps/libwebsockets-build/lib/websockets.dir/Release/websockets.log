@@ -1,0 +1,91 @@
+﻿  Building Custom Rule C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-src/lib/CMakeLists.txt
+cl : command line warning D9035: option 'experimental:preprocessor' has been deprecated and will be removed in a future release
+cl : command line warning D9036: use 'Zc:preprocessor' instead of 'experimental:preprocessor'
+  windows-fds.c
+  windows-file.c
+  windows-init.c
+  windows-misc.c
+  windows-pipe.c
+  windows-plugins.c
+  windows-service.c
+  windows-sockets.c
+  gettimeofday.c
+  tls.c
+  tls-network.c
+  tls-sessions.c
+  openssl-tls.c
+  openssl-x509.c
+  openssl-ssl.c
+  openssl-session.c
+  tls-server.c
+  openssl-server.c
+  tls-client.c
+  openssl-client.c
+  Generating Code...
+  Compiling...
+  alloc.c
+  buflist.c
+  context.c
+  lws_dll2.c
+  lws_map.c
+  libwebsockets.c
+  logs.c
+  vfs.c
+  base64-decode.c
+  prng.c
+  lws-ring.c
+  lws-cache-ttl.c
+  heap.c
+  file.c
+  dir.c
+  lwsac.c
+  cached-file.c
+  sha-1.c
+  lejp.c
+  system.c
+  Generating Code...
+  Compiling...
+  dummy-callback.c
+  output.c
+  close.c
+  network.c
+  vhost.c
+  pollfd.c
+  service.c
+  sorted-usec-list.c
+  wsi.c
+  wsi-timeout.c
+  adopt.c
+  ops-pipe.c
+  state.c
+  client.c
+  connect.c
+  connect2.c
+  connect3.c
+  connect4.c
+  sort-dns.c
+  conmon.c
+  Generating Code...
+  Compiling...
+  header.c
+  date.c
+  parsers.c
+  server.c
+  lws-spa.c
+  cookie.c
+  lejp-conf.c
+  ops-h1.c
+  http2.c
+  hpack.c
+  ops-h2.c
+  ops-ws.c
+  client-ws.c
+  client-parser-ws.c
+  server-ws.c
+  ops-raw-skt.c
+  ops-raw-file.c
+  ops-listen.c
+  client-http.c
+  poll.c
+  Generating Code...
+  websockets.vcxproj -> C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\libwebsockets-build\lib\Release\websockets_static.lib

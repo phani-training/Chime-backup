@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\test\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\test\src\signaling\default_signaling_client_tests.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\test\src\transport\websocket_signaling_transport_tests.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\test\src\utils\sdp_utils_tests.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1E1807E9-286B-3E78-A8B5-0260D3D8AB95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

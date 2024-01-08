@@ -1,0 +1,11 @@
+prefix=C:/Program Files/AmazonChimeSignalingSdkCpp
+exec_prefix=C:/Program Files/AmazonChimeSignalingSdkCpp
+libdir=C:/Program Files/AmazonChimeSignalingSdkCpp/lib
+includedir=C:/Program Files/AmazonChimeSignalingSdkCpp/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.13.0.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir} 
+Conflicts: protobuf-lite

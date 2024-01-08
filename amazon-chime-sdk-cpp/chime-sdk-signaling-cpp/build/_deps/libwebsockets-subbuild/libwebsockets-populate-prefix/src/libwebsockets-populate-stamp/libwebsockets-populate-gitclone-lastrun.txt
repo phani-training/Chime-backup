@@ -1,0 +1,3 @@
+repository='https://github.com/warmcat/libwebsockets.git'
+module=''
+tag='origin'

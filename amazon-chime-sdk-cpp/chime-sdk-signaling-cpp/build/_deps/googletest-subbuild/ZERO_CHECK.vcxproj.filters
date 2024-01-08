@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\googletest-subbuild\CMakeFiles\3239171ac9c9830d2e22d60ffc1fd04f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4EB2BE33-A4B6-311B-A5A2-B5EDBF1FBF10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

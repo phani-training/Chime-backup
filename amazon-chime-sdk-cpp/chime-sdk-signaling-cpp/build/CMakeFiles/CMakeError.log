@@ -1,0 +1,811 @@
+Performing C SOURCE FILE Test LWS_HAVE___inline__ failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e6c3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE___inline__ /D KEYWORD=__inline__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6c3a.dir\Debug\\" /Fd"cmTC_e6c3a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,23): error C2054: expected '(' to follow '__inline__' [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e6c3a.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,27): error C2085: 'a': not in formal parameter list [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e6c3a.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,27): error C2143: syntax error: missing ';' before '{' [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e6c3a.vcxproj]
+
+
+Source file was:
+
+		#include <stdio.h>
+		static KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test LWS_HAVE_MALLOC_TRIM failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_76c91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_MALLOC_TRIM /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76c91.dir\Debug\\" /Fd"cmTC_76c91.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+src.obj : error LNK2019: unresolved external symbol malloc_trim referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_76c91.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_76c91.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_76c91.vcxproj]
+
+
+Source file was:
+#include <malloc.h>
+	int main(int argc, char **argv) { return malloc_trim(0); }
+	
+Performing C SOURCE FILE Test LWS_HAVE_MALLOC_USABLE_SIZE failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_673e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_MALLOC_USABLE_SIZE /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_673e5.dir\Debug\\" /Fd"cmTC_673e5.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+src.obj : error LNK2019: unresolved external symbol malloc_usable_size referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_673e5.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_673e5.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_673e5.vcxproj]
+
+
+Source file was:
+#include <malloc.h>
+	int main(int argc, char **argv) { return (int)malloc_usable_size((void *)0); }
+	
+Determining if the function fork exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_61910.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fork /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61910.dir\Debug\\" /Fd"cmTC_61910.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fork referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_61910.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_61910.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_61910.vcxproj]
+
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_13879.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13879.dir\Debug\\" /Fd"cmTC_13879.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol socket referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_13879.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_13879.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_13879.vcxproj]
+
+
+
+Determining if the function vfork exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8d43f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vfork /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d43f.dir\Debug\\" /Fd"cmTC_8d43f.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol vfork referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_8d43f.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_8d43f.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_8d43f.vcxproj]
+
+
+
+Determining if the function getifaddrs exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_81387.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getifaddrs /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81387.dir\Debug\\" /Fd"cmTC_81387.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getifaddrs referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_81387.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_81387.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_81387.vcxproj]
+
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_597d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_597d2.dir\Debug\\" /Fd"cmTC_597d2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_597d2.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_597d2.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_597d2.vcxproj]
+
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_88cf6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_snprintf /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88cf6.dir\Debug\\" /Fd"cmTC_88cf6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _snprintf referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_88cf6.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_88cf6.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_88cf6.vcxproj]
+
+
+
+Determining if the function _vsnprintf exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_afa53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_vsnprintf /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afa53.dir\Debug\\" /Fd"cmTC_afa53.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _vsnprintf referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_afa53.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_afa53.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_afa53.vcxproj]
+
+
+
+Determining if the function getloadavg exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_da0a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getloadavg /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da0a0.dir\Debug\\" /Fd"cmTC_da0a0.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getloadavg referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_da0a0.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_da0a0.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_da0a0.vcxproj]
+
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_317f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_317f8.dir\Debug\\" /Fd"cmTC_317f8.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol clock_gettime referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_317f8.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_317f8.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_317f8.vcxproj]
+
+
+
+Determining if the function localtime_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5b254.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localtime_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b254.dir\Debug\\" /Fd"cmTC_5b254.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol localtime_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_5b254.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_5b254.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_5b254.vcxproj]
+
+
+
+Determining if the function gmtime_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e9751.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gmtime_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9751.dir\Debug\\" /Fd"cmTC_e9751.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gmtime_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e9751.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_e9751.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e9751.vcxproj]
+
+
+
+Determining if the function ctime_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_39f49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ctime_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39f49.dir\Debug\\" /Fd"cmTC_39f49.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol ctime_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_39f49.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_39f49.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_39f49.vcxproj]
+
+
+
+Determining if the function getgrgid_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_39d14.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getgrgid_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39d14.dir\Debug\\" /Fd"cmTC_39d14.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getgrgid_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_39d14.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_39d14.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_39d14.vcxproj]
+
+
+
+Determining if the function getgrnam_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a525b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getgrnam_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a525b.dir\Debug\\" /Fd"cmTC_a525b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getgrnam_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_a525b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_a525b.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_a525b.vcxproj]
+
+
+
+Determining if the function getpwuid_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_87354.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87354.dir\Debug\\" /Fd"cmTC_87354.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getpwuid_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_87354.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_87354.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_87354.vcxproj]
+
+
+
+Determining if the function getpwnam_r exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_675d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwnam_r /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_675d9.dir\Debug\\" /Fd"cmTC_675d9.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getpwnam_r referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_675d9.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_675d9.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_675d9.vcxproj]
+
+
+
+Determining if the function timegm exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4a2c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timegm /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a2c3.dir\Debug\\" /Fd"cmTC_4a2c3.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol timegm referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_4a2c3.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_4a2c3.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_4a2c3.vcxproj]
+
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d6a82.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6a82.dir\Debug\\" /Fd"cmTC_d6a82.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_d6a82.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1a662.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a662.dir\Debug\\" /Fd"cmTC_1a662.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_1a662.vcxproj]
+
+
+
+Determining if the include file sys/prctl.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3e6a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e6a3.dir\Debug\\" /Fd"cmTC_3e6a3.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/prctl.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_3e6a3.vcxproj]
+
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_18c81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18c81.dir\Debug\\" /Fd"cmTC_18c81.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_18c81.vcxproj]
+
+
+
+Determining if the include file sys/sockio.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_69960.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69960.dir\Debug\\" /Fd"cmTC_69960.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/sockio.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_69960.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_611e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_611e0.dir\Debug\\" /Fd"cmTC_611e0.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_611e0.vcxproj]
+
+
+
+Determining if the include file vfork.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_49a7c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49a7c.dir\Debug\\" /Fd"cmTC_49a7c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'vfork.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_49a7c.vcxproj]
+
+
+
+Determining if the include file sys/capability.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2e483.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e483.dir\Debug\\" /Fd"cmTC_2e483.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/capability.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_2e483.vcxproj]
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_79a45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79a45.dir\Debug\\" /Fd"cmTC_79a45.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_79a45.vcxproj]
+
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_22be2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22be2.dir\Debug\\" /Fd"cmTC_22be2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_22be2.vcxproj]
+
+
+
+Determining if the function cap_set_flag exists in the cap failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_590d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cap_set_flag /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_590d1.dir\Debug\\" /Fd"cmTC_590d1.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'cap.lib' [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_590d1.vcxproj]
+
+
+
+Performing C SOURCE FILE Test LWS_HAS_GETOPT_LONG failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_8a37a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAS_GETOPT_LONG /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a37a.dir\Debug\\" /Fd"cmTC_8a37a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,11): fatal error C1083: Cannot open include file: 'getopt.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_8a37a.vcxproj]
+
+
+Source file was:
+#include <stddef.h>
+	#include <getopt.h>
+	int main(void) {
+		void *p = (void *)getopt_long;
+		return p != NULL;
+	}
+Performing C SOURCE FILE Test LWS_HAVE_RTA_PREF failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4817a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_RTA_PREF /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4817a.dir\Debug\\" /Fd"cmTC_4817a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(1,10): fatal error C1083: Cannot open include file: 'linux/rtnetlink.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_4817a.vcxproj]
+
+
+Source file was:
+#include <linux/rtnetlink.h>
+	int main(void) {
+		int test = RTA_PREF;
+		return 0;
+	}
+Performing C SOURCE FILE Test LWS_HAVE_SUSECONDS_T failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_931c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_SUSECONDS_T /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_931c4.dir\Debug\\" /Fd"cmTC_931c4.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,15): error C2065: 'suseconds_t': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_931c4.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,15): error C2146: syntax error: missing ';' before identifier 'x' [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_931c4.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(3,17): error C2065: 'x': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_931c4.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(4,16): error C2065: 'x': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_931c4.vcxproj]
+
+
+Source file was:
+#include <sys/types.h>
+	int main(void) {
+		suseconds_t x = 0;
+		return (int)x;
+	}
+Performing C SOURCE FILE Test LWS_HAVE_PIPE2 failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cb235.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_PIPE2 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb235.dir\Debug\\" /Fd"cmTC_cb235.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(5,11): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_cb235.vcxproj]
+
+
+Source file was:
+
+	#ifndef _GNU_SOURCE
+	#define _GNU_SOURCE
+	#endif
+	#include <unistd.h>
+	int main(void) {
+		int fd[2];
+		return pipe2(fd, 0);
+	}
+Performing C SOURCE FILE Test LWS_HAVE_TCP_USER_TIMEOUT failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cc79f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_TCP_USER_TIMEOUT /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc79f.dir\Debug\\" /Fd"cmTC_cc79f.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(1,10): fatal error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_cc79f.vcxproj]
+
+
+Source file was:
+#include <netinet/tcp.h>
+int main(void) { return TCP_USER_TIMEOUT; }
+
+Determining if the include file openssl/ecdh.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_46d1b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46d1b.dir\Debug\\" /Fd"cmTC_46d1b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'openssl/ecdh.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_46d1b.vcxproj]
+
+
+
+Determining if the X509_VERIFY_PARAM_set1_host exist failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_54ac2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54ac2.dir\Debug\\" /Fd"cmTC_54ac2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'LWS_HAVE_X509_VERIFY_PARAM_set1_host_sym': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_54ac2.vcxproj]
+
+
+File C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <LWS_HAVE_X509_VERIFY_PARAM_set1_host_sym>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef X509_VERIFY_PARAM_set1_host
+  return ((int*)(&X509_VERIFY_PARAM_set1_host))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function SSL_CTX_EVP_PKEY_new_raw_private_key exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bcb04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=SSL_CTX_EVP_PKEY_new_raw_private_key /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcb04.dir\Debug\\" /Fd"cmTC_bcb04.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol SSL_CTX_EVP_PKEY_new_raw_private_key referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_bcb04.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_bcb04.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_bcb04.vcxproj]
+
+
+
+Determining if the function EVP_aes_128_cfb8 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9193f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_128_cfb8 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9193f.dir\Debug\\" /Fd"cmTC_9193f.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_128_cfb8 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_9193f.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_9193f.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_9193f.vcxproj]
+
+
+
+Determining if the function EVP_aes_128_cfb128 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_34239.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_128_cfb128 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34239.dir\Debug\\" /Fd"cmTC_34239.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_128_cfb128 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_34239.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_34239.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_34239.vcxproj]
+
+
+
+Determining if the function EVP_aes_192_cfb8 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_54f66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_192_cfb8 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54f66.dir\Debug\\" /Fd"cmTC_54f66.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_192_cfb8 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_54f66.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_54f66.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_54f66.vcxproj]
+
+
+
+Determining if the function EVP_aes_192_cfb128 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4260a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_192_cfb128 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4260a.dir\Debug\\" /Fd"cmTC_4260a.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_192_cfb128 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_4260a.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_4260a.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_4260a.vcxproj]
+
+
+
+Determining if the function EVP_aes_256_cfb8 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_01d16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_256_cfb8 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01d16.dir\Debug\\" /Fd"cmTC_01d16.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_256_cfb8 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_01d16.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_01d16.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_01d16.vcxproj]
+
+
+
+Determining if the function EVP_aes_256_cfb128 exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_1674b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_256_cfb128 /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1674b.dir\Debug\\" /Fd"cmTC_1674b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_256_cfb128 referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_1674b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_1674b.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_1674b.vcxproj]
+
+
+
+Determining if the function EVP_aes_128_xts exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_31023.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_128_xts /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31023.dir\Debug\\" /Fd"cmTC_31023.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_128_xts referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_31023.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_31023.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_31023.vcxproj]
+
+
+
+Performing C SOURCE FILE Test LWS_HAVE_SSL_EXTRA_CHAIN_CERTS failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_921e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_SSL_EXTRA_CHAIN_CERTS /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_921e2.dir\Debug\\" /Fd"cmTC_921e2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+src.obj : error LNK2019: unresolved external symbol SSL_CTX_get_extra_chain_certs_only referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_921e2.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_921e2.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_921e2.vcxproj]
+
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { STACK_OF(X509) *c = NULL; SSL_CTX *ctx = NULL; return (int)SSL_CTX_get_extra_chain_certs_only(ctx, &c); }
+
+Performing C SOURCE FILE Test LWS_HAVE_OPENSSL_STACK failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f636b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LWS_HAVE_OPENSSL_STACK /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f636b.dir\Debug\\" /Fd"cmTC_f636b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,32): error C2065: 'OPENSSL_STACK': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_f636b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,35): error C2065: 'x': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_f636b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,41): warning C4047: '=': 'int' differs in levels of indirection from 'void *' [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_f636b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,41): error C2106: '=': left operand must be l-value [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_f636b.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\src.c(2,52): error C2065: 'x': undeclared identifier [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_f636b.vcxproj]
+
+
+Source file was:
+#include <openssl/ssl.h>
+int main(void) { OPENSSL_STACK *x = NULL; return !x; } 
+
+Determining if the function EVP_aes_128_wrap exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3cf2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EVP_aes_128_wrap /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cf2d.dir\Debug\\" /Fd"cmTC_3cf2d.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EVP_aes_128_wrap referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_3cf2d.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_3cf2d.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_3cf2d.vcxproj]
+
+
+
+Determining if the function EC_POINT_get_affine_coordinates exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e2ffc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /IC:\webrtc\src\third_party\boringssl\src\include /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=EC_POINT_get_affine_coordinates /D KEYWORD=__inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2ffc.dir\Debug\\" /Fd"cmTC_e2ffc.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol EC_POINT_get_affine_coordinates referenced in function main [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e2ffc.vcxproj]
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\Debug\cmTC_e2ffc.exe : fatal error LNK1120: 1 unresolved externals [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_e2ffc.vcxproj]
+
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_81d56.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30153 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81d56.dir\Debug\\" /Fd"cmTC_81d56.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\CMakeFiles\CMakeTmp\cmTC_81d56.vcxproj]
+
+
+

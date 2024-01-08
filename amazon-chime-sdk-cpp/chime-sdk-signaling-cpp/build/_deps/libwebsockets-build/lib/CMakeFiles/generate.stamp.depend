@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-src/cmake/lws_config_private.h.in
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-src/lib/CMakeLists.txt

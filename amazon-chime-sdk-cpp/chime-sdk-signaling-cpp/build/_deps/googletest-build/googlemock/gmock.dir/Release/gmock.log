@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/googletest-src/googlemock/CMakeLists.txt
+  gtest-all.cc
+  gmock-all.cc
+  Generating Code...
+  gmock.vcxproj -> C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\lib\Release\gmock.lib

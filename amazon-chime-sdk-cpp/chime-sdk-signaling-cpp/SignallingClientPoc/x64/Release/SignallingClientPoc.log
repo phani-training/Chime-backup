@@ -1,0 +1,22 @@
+﻿  keypress_controller.cc
+  meeting_controller.cc
+  audio_events_observer.cc
+  data_message_observer.cc
+  lifecycle_observer.cc
+  peer_connection_observer.cc
+  presence_events_observer.cc
+  session_description_observer.cc
+  session_description_observer_adapter.cc
+  video_events_observer.cc
+  fake_video_source.cc
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\demo\shared\video\fake_video_source.cc(31,45): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\demo\shared\video\fake_video_source.cc(31,39): warning C4244: 'initializing': conversion from 'double' to 'const __int64', possible loss of data
+  write_to_file_yuv_video_sink.cc
+  SignallingClientPoc.cpp
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\SignallingClientPoc\RestApi.h(89,34): warning C4101: 'exception': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\data_message\data_message_error.h(38): warning C4715: 'chime::DataMessageSendError::ReasonToString': not all control paths return a value
+  All 2957 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SignallingClientPoc.vcxproj -> C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\x64\Release\SignallingClientPoc.exe

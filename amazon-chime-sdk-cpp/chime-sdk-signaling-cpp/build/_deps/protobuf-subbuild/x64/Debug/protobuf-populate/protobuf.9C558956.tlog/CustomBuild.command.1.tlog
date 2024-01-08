@@ -1,0 +1,162 @@
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/tmp/protobuf-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\protobuf-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/tmp/protobuf-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\protobuf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-BUILD.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\protobuf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\protobuf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\F1442635D06721F494B6CA5C5591E570\PROTOBUF-POPULATE-TEST.RULE
+setlocal
+cd C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\protobuf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\3CE8C9266BA7491AE200C45CAA7C28A4\PROTOBUF-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/Debug/protobuf-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/protobuf-populate-prefix/src/protobuf-populate-stamp/Debug/protobuf-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKEFILES\404D856282AF6F3B24A0DBA6BA6093FC\PROTOBUF-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\PROTOBUF-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild -BC:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild --check-stamp-file C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/CMakeLists.txt
+  trusted.cc
+  default_audio_frame_adapter.cc
+  default_signaling_transport_factory.cc
+  websocket_signaling_transport.cc
+  default_signaling_client.cc
+  default_signaling_client_factory.cc
+  logging.cc
+  libwebsockets_websocket.cc
+  default_websocket_factory.cc
+  video_control.pb.cc
+  Generating Code...
+  amazon-chime-signaling-sdk-cpp-lib.vcxproj -> C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\Release\amazon-chime-signaling-sdk-cpp-lib.lib

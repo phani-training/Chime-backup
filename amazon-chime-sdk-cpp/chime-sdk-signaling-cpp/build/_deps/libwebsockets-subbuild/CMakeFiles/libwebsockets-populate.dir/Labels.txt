@@ -1,0 +1,14 @@
+# Target labels
+ libwebsockets-populate
+# Source files and their labels
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/libwebsockets-populate
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/c2edc7324b4d2ef5bf36e226a94ffa8b/libwebsockets-populate.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/655104d0b59f3323dd7cca620fc3ab37/libwebsockets-populate-complete.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-build.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-configure.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-download.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-install.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-mkdir.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-patch.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-test.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-subbuild/CMakeFiles/28a1d3f5af413872264fce4b9324abbf/libwebsockets-populate-update.rule

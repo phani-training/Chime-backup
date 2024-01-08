@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/libwebsockets-src/lib/CMakeLists.txt
+cl : command line warning D9035: option 'experimental:preprocessor' has been deprecated and will be removed in a future release
+cl : command line warning D9036: use 'Zc:preprocessor' instead of 'experimental:preprocessor'
+  windows-fds.c
+  windows-file.c
+  windows-init.c
+  windows-misc.c
+  windows-pipe.c
+  windows-plugins.c
+  windows-service.c
+  windows-sockets.c

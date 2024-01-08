@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/CMakeLists.txt
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/extract_includes.bat.in
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/install.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/libprotobuf-lite.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/libprotobuf.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/libprotoc.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf-config-version.cmake.in
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf-config.cmake.in
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf-lite.pc.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf-module.cmake.in
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf-options.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protobuf.pc.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/protoc.cmake
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-src/cmake/version.rc.in
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakeDependentOption.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindThreads.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/FindZLIB.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/SelectLibraryConfigurations.cmake

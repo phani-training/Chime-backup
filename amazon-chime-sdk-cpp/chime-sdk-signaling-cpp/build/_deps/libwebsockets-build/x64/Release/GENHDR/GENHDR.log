@@ -1,0 +1,2 @@
+﻿  Creating build include dir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(241,5): warning MSB8065: Custom build for item "C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\libwebsockets-build\lws_config.h" succeeded, but specified output "c:\chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\build\_deps\libwebsockets-build\include\libwebsockets" has not been created. This may cause incremental build to work incorrectly.

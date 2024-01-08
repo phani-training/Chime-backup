@@ -1,0 +1,10 @@
+^C:\CHIME\AMAZON-CHIME-SDK-CPP\CHIME-SDK-SIGNALING-CPP\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\3239171AC9C9830D2E22D60FFC1FD04F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/googletest-subbuild -BC:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

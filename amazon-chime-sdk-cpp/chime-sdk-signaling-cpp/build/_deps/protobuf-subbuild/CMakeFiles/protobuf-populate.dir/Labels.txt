@@ -1,0 +1,14 @@
+# Target labels
+ protobuf-populate
+# Source files and their labels
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/protobuf-populate
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/404d856282af6f3b24a0dba6ba6093fc/protobuf-populate.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/3ce8c9266ba7491ae200c45caa7c28a4/protobuf-populate-complete.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-build.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-configure.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-download.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-install.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-mkdir.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-patch.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-test.rule
+C:/Chime/amazon-chime-sdk-cpp/chime-sdk-signaling-cpp/build/_deps/protobuf-subbuild/CMakeFiles/f1442635d06721f494b6ca5c5591e570/protobuf-populate-update.rule

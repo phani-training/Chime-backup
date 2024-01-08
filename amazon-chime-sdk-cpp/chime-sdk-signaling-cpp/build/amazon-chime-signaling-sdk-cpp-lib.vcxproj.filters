@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\websocket\certs\trusted.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\audio_video\default_audio_frame_adapter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\transport\default_signaling_transport_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\transport\websocket_signaling_transport.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\default_signaling_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\default_signaling_client_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\utils\logging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\websocket\libwebsockets_websocket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\websocket\default_websocket_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\proto\video_control.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\audio_video\local_audio_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\audio_video\remote_video_source_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\transport\signaling_transport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\default_signaling_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\transport\signaling_transport_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\transport\websocket_signaling_transport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\session\turn_credentials.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\signaling_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\signaling_client_observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\signaling_client_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\signaling\signaling_client_status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\src\utils\attendee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Chime\amazon-chime-sdk-cpp\chime-sdk-signaling-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{751B35A6-3C0B-3D1E-8CA5-6A7CF4A10268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1E1807E9-286B-3E78-A8B5-0260D3D8AB95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
